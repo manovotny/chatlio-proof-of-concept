@@ -1,0 +1,11 @@
+{
+    "alias": ["chatlio-proof-of-concept.now.sh"],
+    "version": 2,
+    "name": "chatlio-proof-of-concept",
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next"
+        }
+    ]
+}
